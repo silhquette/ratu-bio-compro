@@ -13,6 +13,7 @@ import { Map } from '@/components/map'
 import { Navbar } from '@/components/navbar'
 import { Screenshot } from '@/components/screenshot'
 import { Testimonials } from '@/components/testimonials'
+import { Products } from '@/components/products'
 import { Heading, Lead, Subheading } from '@/components/text'
 import { AnimatedNumber } from '@/components/animated-number'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
@@ -31,10 +32,10 @@ function Hero() {
         <Navbar />
         <div className="pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-48">
           <h1 className="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[0.8] md:text-9xl/[0.8]">
-            Innovation in <br /> Beauty
+            Innovation in <br /> Hygiene
           </h1>
           <p className="mt-8 max-w-xl text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            We empower your brand with innovative cosmetics tailored to your needs.
+            We empower your brand with effective hand sanitizers and disinfectants tailored to your needs.
           </p>
         </div>
       </Container>
@@ -45,15 +46,15 @@ function Hero() {
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Empowering Beauty Brands to Thrive.</Heading>
+      <Heading as="h1">Empowering Hygiene Brands to Thrive.</Heading>
       <Lead className="mt-6 max-w-3xl">
-        Our mission is to revolutionize the cosmetics industry by providing innovative, high-quality formulations that elevate your brand.
+        Our mission is to revolutionize the hygiene industry by providing innovative, high-quality hand sanitizers and disinfectants that elevate your brand.
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
           <h2 className="text-2xl font-medium tracking-tight">Behind the Brand</h2>
           <p className="mt-6 text-sm/6 text-gray-600">
-            PT Ratu Bio Indonesia was established in January 2015 in Bandung, Indonesia, with a commitment to high-quality cosmetic manufacturing solutions tailored to our clients' needs. Starting with a passionate team, we have successfully launched over 200 products, growing into a reputable partner in the beauty industry. Our advanced facility ensures quality and compliance while we work closely with clients to bring their visions to life. With a focus on sustainability and ethical practices, we aim to lead the industry in creating responsible beauty products.
+            PT Ratu Bio Indonesia was established in January 2015 in Bandung, Indonesia, with a commitment to high-quality hygiene product manufacturing solutions tailored to our clients' needs. Starting with a passionate team, we have successfully launched numerous hand sanitizers and disinfectants, growing into a reputable partner in the hygiene industry. Our advanced facility ensures quality and compliance while we work closely with clients to bring their visions to life. With a focus on sustainability and ethical practices, we aim to lead the industry in creating effective and responsible hygiene products.
           </p>
         </div>
         <div className="lg:pt-0 pt-20 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -267,7 +268,7 @@ export default function Home() {
           <Header />
         </div>
       </main>
-      <Testimonials />
+      <Products />
       <Footer />
     </div>
   )
