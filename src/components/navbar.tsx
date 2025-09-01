@@ -12,10 +12,11 @@ import { Logo } from './logo'
 import { PlusGrid, PlusGridItem, PlusGridRow } from './plus-grid'
 
 const links = [
-  { href: '/pricing', label: 'Pricing' },
-  { href: '/company', label: 'Company' },
-  { href: '/blog', label: 'Blog' },
-  { href: '/login', label: 'Login' },
+  { href: '/about', label: 'About Us' },
+  { href: '/brands', label: 'Brands' },
+  { href: '/commitments', label: 'Commitments' },
+  { href: '/news', label: 'News' },
+  { href: '/contact', label: 'Contact' },
 ]
 
 function DesktopNav() {
