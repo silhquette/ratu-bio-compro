@@ -147,7 +147,7 @@ function ProductCard({
 function CallToAction() {
   return (
     <div>
-      <p className="max-w-sm text-sm/6 text-gray-600">
+      <p className="max-w-sm text-md/6 text-gray-600">
         Join the best brands in hygiene products and start using our solutions to keep your environment safe.
       </p>
       <div className="mt-2">
@@ -179,7 +179,7 @@ export function Products() {
   }
 
   return (
-    <div className="overflow-hidden py-32">
+    <div className="overflow-hidden pt-32">
       <Container>
         <div ref={setReferenceWindowRef}>
           <Subheading>Our Products</Subheading>
