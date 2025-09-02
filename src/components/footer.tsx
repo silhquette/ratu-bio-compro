@@ -1,4 +1,5 @@
 import { PlusGrid, PlusGridItem, PlusGridRow } from '@/components/plus-grid'
+import { MapPin, Mail, Phone, Instagram, Linkedin } from 'lucide-react'
 import { Button } from './button'
 import { Container } from './container'
 import { Gradient } from './gradient'
@@ -10,13 +11,41 @@ function CallToAction() {
   return (
     <div className="relative pt-20 pb-16 text-center sm:py-24">
       <hgroup>
-        <Subheading>Get started</Subheading>
-        <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
-          Ready to dive in?
-          <br />
-          Start your free trial today.
+        <Subheading>Contact</Subheading>
+        <p className="mt-2 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
+          Get in touch with us.
         </p>
       </hgroup>
+      <div className="grid lg:grid-cols-2 pt-12">
+        <div className='flex flex-col'>
+          <div className="max-w-lg lg:text-left">
+            <h2 className="text-xl font-semibold">We are here for you</h2>
+            <p className="mt-2 text-md/6 text-gray-600">
+              For more info or inquiry about our products and pricing please feel free to get in touch with us.
+            </p>
+            <div className='flex flex-col lg:flex-row gap-4 items-center mt-3'>
+              <div className='rounded-full p-3 bg-gray-100'><MapPin color='#FF9500' size={20} /></div>
+              <span>Jl. Barokah II, RT 03 RW 10, Kp Parungdengdek, Wanaherang, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16965</span>
+            </div>
+            <div className='flex flex-col lg:flex-row gap-4 items-center mt-3'>
+              <div className='rounded-full p-3 bg-gray-100'><Mail color='#FF9500' size={20} /></div>
+              <span>ratubio@test.info.com</span>
+            </div>
+            <div className='flex flex-col lg:flex-row gap-4 items-center mt-3'>
+              <div className='rounded-full p-3 bg-gray-100'><Phone color='#FF9500' size={20} /></div>
+              <span>081314842909</span>
+            </div>
+            <h2 className="text-xl font-semibold mt-5">Follow us on</h2>
+            <div className='p-2 flex gap-4 justify-center lg:justify-start pb-20'>
+              <a href="instagram.com"><Instagram color='#FF9500' /></a>
+              <a href="instagram.com"><Linkedin color='#FF9500' fill='#FF9500' strokeWidth={1} /></a>
+            </div>
+          </div>
+        </div>
+        <div className='overflow-hidden rounded-lg border border-zinc-400'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.708994978351!2d106.94045911139115!3d-6.431416262867675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69953d49a2eb17%3A0x7974d83d2855f518!2sPT%20Ratu%20Bio%20Indonesia!5e0!3m2!1sid!2sid!4v1756830676688!5m2!1sid!2sid" width="100%" height="400" loading="lazy"></iframe>
+        </div>
+      </div>
       <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
         Get the cheat codes for selling and unlock your team&apos;s revenue
         potential.
