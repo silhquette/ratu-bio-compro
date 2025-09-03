@@ -153,7 +153,7 @@ function CallToAction() {
       <div className="mt-2">
         <Link
           href="#"
-          className="inline-flex items-center gap-2 text-sm/6 font-medium text-pink-600"
+          className="inline-flex items-center gap-2 text-sm/6 font-medium text-amber-500"
         >
           Get started
           <ArrowLongRightIcon className="size-5" />

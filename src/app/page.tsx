@@ -118,9 +118,9 @@ function Header() {
 
 function Commitments() {
   return (
-    <div className="overflow-hidden py-32">
+    <div className="overflow-hidden pt-32 pb-16">
       <Container>
-        <div className='grid grid-cols-2 gap-12 items-center'>
+        <div className='grid lg:grid-cols-2 gap-12 items-center'>
           <div className='grid grid-cols-5 gap-4'>
             <div className="col-span-3 h-64 overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
               <img
@@ -160,12 +160,12 @@ function Commitments() {
               At PT Ratu Bio Indonesia, we believe in giving back to the community. Our commitment to social responsibility drives us to engage in various initiatives aimed at supporting local health and environmental sustainability. From distributing hand sanitizers to those in need to participating in clean-up drives and educational programs, we strive to make a positive impact wherever we operate.
             </p>
             <p className=" text-md/6 text-gray-600 mt-8">
-              Explore some of our recent CSR activities below, showcasing our dedication to creating healthier and safer environments for all. To learn more about our ongoing initiatives and commitments, visit our <Link href="/commitments" className="text-pink-600">Commitments</Link> page.
+              Explore some of our recent CSR activities below, showcasing our dedication to creating healthier and safer environments for all. To learn more about our ongoing initiatives and commitments, visit our <Link href="/commitments" className="text-amber-500">Commitments</Link> page.
             </p>
             <div className="mt-2">
               <Link
                 href="#"
-                className="inline-flex items-center gap-2 text-sm/6 font-medium text-pink-600"
+                className="inline-flex items-center gap-2 text-sm/6 font-medium text-amber-500"
               >
                 Learn More
                 <ArrowLongRightIcon className="size-5" />
@@ -181,7 +181,7 @@ function Commitments() {
 export default function Home() {
   return (
     <div className="overflow-hidden">
-      <SplashScreen />
+      {/* <SplashScreen /> */}
       <Hero />
       <main>
         <Container className="mt-10">
