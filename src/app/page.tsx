@@ -9,6 +9,7 @@ import { Heading, Lead, Subheading } from '@/components/text'
 import { AnimatedNumber } from '@/components/animated-number'
 import type { Metadata } from 'next'
 import { ArrowLongRightIcon } from '@heroicons/react/20/solid'
+import SplashScreen from '@/components/splash-logo'
 
 export const metadata: Metadata = {
   description:
@@ -180,6 +181,7 @@ function Commitments() {
 export default function Home() {
   return (
     <div className="overflow-hidden">
+      <SplashScreen />
       <Hero />
       <main>
         <Container className="mt-10">
