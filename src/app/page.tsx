@@ -45,7 +45,7 @@ function Header() {
         <div className="max-w-lg">
           <h2 className="text-2xl font-medium tracking-tight">Behind the Brand</h2>
           <p className="mt-6 text-md/6 text-gray-600">
-            PT Ratu Bio Indonesia was established in January 2015 in Bandung, Indonesia, with a commitment to high-quality hygiene product manufacturing solutions tailored to our clients' needs. Starting with a passionate team, we have successfully launched numerous hand sanitizers and disinfectants, growing into a reputable partner in the hygiene industry. Our advanced facility ensures quality and compliance while we work closely with clients to bring their visions to life. With a focus on sustainability and ethical practices, we aim to lead the industry in creating effective and responsible hygiene products.
+            PT Ratu Bio Indonesia was established in January 2015 in Bandung, Indonesia, with a commitment to high-quality hygiene product manufacturing solutions tailored to our clients needs. Starting with a passionate team, we have successfully launched numerous hand sanitizers and disinfectants, growing into a reputable partner in the hygiene industry. Our advanced facility ensures quality and compliance while we work closely with clients to bring their visions to life. With a focus on sustainability and ethical practices, we aim to lead the industry in creating effective and responsible hygiene products.
           </p>
         </div>
         <div className="lg:pt-0 pt-20 lg:row-span-2 lg:-mr-16 xl:mr-auto">
