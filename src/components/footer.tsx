@@ -1,5 +1,6 @@
 import { PlusGrid, PlusGridItem, PlusGridRow } from '@/components/plus-grid'
-import { MapPin, Mail, Phone, Instagram, Linkedin } from 'lucide-react'
+import { MapPin, Mail, Phone } from 'lucide-react'
+import { AiFillTikTok, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { Button } from './button'
 import { Container } from './container'
 import { Gradient } from './gradient'
@@ -16,7 +17,7 @@ function CallToAction() {
           Get in touch with us.
         </p>
       </hgroup>
-      <div className="grid lg:grid-cols-2 pt-12">
+      <div className="grid lg:grid-cols-2 pt-12 items-center">
         <div className='flex flex-col'>
           <div className="max-w-lg lg:text-left">
             <h2 className="text-xl font-semibold">We are here for you</h2>
@@ -36,24 +37,16 @@ function CallToAction() {
               <span>081314842909</span>
             </div>
             <h2 className="text-xl font-semibold mt-5">Follow us on</h2>
-            <div className='p-2 flex gap-4 justify-center lg:justify-start pb-20'>
-              <a href="instagram.com"><Instagram color='#FF9500' /></a>
-              <a href="instagram.com"><Linkedin color='#FF9500' fill='#FF9500' strokeWidth={1} /></a>
+            <div className='p-2 flex gap-4 justify-center lg:justify-start lg:pb-0 pb-10'>
+              <a href="instagram.com" className='cursor-pointer'><AiFillInstagram size={28} color='#FF9500' /></a>
+              <a href="instagram.com" className='cursor-pointer'><AiFillTikTok size={28} color='#FF9500' /></a>
+              <a href="instagram.com" className='cursor-pointer'><AiFillLinkedin size={28} color='#FF9500' /></a>
             </div>
           </div>
         </div>
         <div className='overflow-hidden rounded-lg border border-zinc-400'>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.708994978351!2d106.94045911139115!3d-6.431416262867675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69953d49a2eb17%3A0x7974d83d2855f518!2sPT%20Ratu%20Bio%20Indonesia!5e0!3m2!1sid!2sid!4v1756830676688!5m2!1sid!2sid" width="100%" height="400" loading="lazy"></iframe>
         </div>
-      </div>
-      <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
-        Get the cheat codes for selling and unlock your team&apos;s revenue
-        potential.
-      </p>
-      <div className="mt-6">
-        <Button className="w-full sm:w-auto" href="#">
-          Get started
-        </Button>
       </div>
     </div>
   )
@@ -152,7 +145,7 @@ function SocialLinks() {
         aria-label="Visit us on Facebook"
         className="text-gray-950 data-hover:text-gray-950/75"
       >
-        <SocialIconFacebook className="size-4" />
+        <AiFillInstagram className="text-2xl" />
       </Link>
       <Link
         href="https://x.com"
@@ -160,7 +153,7 @@ function SocialLinks() {
         aria-label="Visit us on X"
         className="text-gray-950 data-hover:text-gray-950/75"
       >
-        <SocialIconX className="size-4" />
+        <AiFillTikTok className="text-2xl" />
       </Link>
       <Link
         href="https://linkedin.com"
@@ -168,7 +161,7 @@ function SocialLinks() {
         aria-label="Visit us on LinkedIn"
         className="text-gray-950 data-hover:text-gray-950/75"
       >
-        <SocialIconLinkedIn className="size-4" />
+        <AiFillLinkedin className="text-2xl" />
       </Link>
     </>
   )

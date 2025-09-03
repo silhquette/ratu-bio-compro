@@ -181,7 +181,7 @@ function Commitments() {
 export default function Home() {
   return (
     <div className="overflow-hidden">
-      {/* <SplashScreen /> */}
+      <SplashScreen />
       <Hero />
       <main>
         <Container className="mt-10">
